@@ -1,11 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println(fonction("HelloHAjeHAsuiHAclement", "HA"))
-}
-
 func fonction(s string, sep string) []string {
 	//création d'un tableau
 	tbl := []string(nil)

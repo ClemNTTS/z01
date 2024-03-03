@@ -1,9 +1,5 @@
 package main
 
-func main() {
-	QuadA(10, 5)
-}
-
 func QuadA(x, y int) {
 	for row := 0; row < y; row++ {
 		for col := 0; col < x; col++ {
